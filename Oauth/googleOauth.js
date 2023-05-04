@@ -24,7 +24,7 @@ const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 passport_1.default.use(new passport_google_oauth20_1.Strategy({
     clientID: "221992717439-u77bv2tpqo6uhdbatucjbcasjnsi1828.apps.googleusercontent.com",
     clientSecret: "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",
-    callbackURL: "http://localhost:4500/auth/google/callback",
+    callbackURL: "https://upset-pike-flannel-shirt.cyclic.app/auth/google/callback",
 }, function (accessToken, refreshToken, profile, cb) {
     return __awaiter(this, void 0, void 0, function* () {
         if (profile._json.email_verified) {
