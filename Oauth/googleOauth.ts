@@ -18,7 +18,7 @@ passport.use(
       clientID:
         "221992717439-u77bv2tpqo6uhdbatucjbcasjnsi1828.apps.googleusercontent.com",
       clientSecret: "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",
-      callbackURL: "http://localhost:4500/auth/google/callback",
+      callbackURL: "https://upset-pike-flannel-shirt.cyclic.app/auth/google/callback",
     },
     async function (accessToken, refreshToken, profile, cb) {
       interface User {
