@@ -63,6 +63,6 @@ Grouter.get("/auth/google/callback", passport_1.default.authenticate("google", {
     }, "masai");
     //
     //  https://transcendent-horse-5d8cb8.netlify.app/masseges.html?id=${user._id}
-    res.redirect(`https://yuvraj1307.github.io/token=${token}&name=${user.name}&role=${user.Role}`);
+    res.redirect(`https://yuvraj1307.github.io?token=${token}&name=${user.name}&role=${user.Role}`);
 });
 exports.default = Grouter;
